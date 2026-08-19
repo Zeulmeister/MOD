@@ -260,7 +260,8 @@
       "drop": "Lnet/minecraft/client/player/LocalPlayer;m_108700_(Z)Z"
     },
     "net/arna/jcraft/mixin/client/ClientWorldMixin": {
-      "playSound": "Lnet/minecraft/client/multiplayer/ClientLevel;m_233602_(DDDLnet/minecraft/sounds/SoundEvent;Lnet/minecraft/sounds/SoundSource;FFZJ)V",
+      "playLocalSound(DDDLnet/minecraft/sounds/SoundEvent;Lnet/minecraft/sounds/SoundSource;FFZ)V": "Lnet/minecraft/client/multiplayer/ClientLevel;m_7785_(DDDLnet/minecraft/sounds/SoundEvent;Lnet/minecraft/sounds/SoundSource;FFZ)V",
+      "playSound(DDDLnet/minecraft/sounds/SoundEvent;Lnet/minecraft/sounds/SoundSource;FFZJ)V": "Lnet/minecraft/client/multiplayer/ClientLevel;m_233602_(DDDLnet/minecraft/sounds/SoundEvent;Lnet/minecraft/sounds/SoundSource;FFZJ)V",
       "tick": "Lnet/minecraft/client/multiplayer/ClientLevel;m_104726_(Ljava/util/function/BooleanSupplier;)V",
       "tickNonPassenger": "Lnet/minecraft/client/multiplayer/ClientLevel;m_104639_(Lnet/minecraft/world/entity/Entity;)V"
     },
@@ -282,6 +283,7 @@
       "Lnet/minecraft/client/renderer/LevelRenderer;doEntityOutline()V": "Lnet/minecraft/client/renderer/LevelRenderer;m_109769_()V",
       "Lnet/minecraft/client/renderer/LevelRenderer;renderLevel(Lcom/mojang/blaze3d/vertex/PoseStack;FJZLnet/minecraft/client/Camera;Lnet/minecraft/client/renderer/GameRenderer;Lnet/minecraft/client/renderer/LightTexture;Lorg/joml/Matrix4f;)V": "Lnet/minecraft/client/renderer/LevelRenderer;m_109599_(Lcom/mojang/blaze3d/vertex/PoseStack;FJZLnet/minecraft/client/Camera;Lnet/minecraft/client/renderer/GameRenderer;Lnet/minecraft/client/renderer/LightTexture;Lorg/joml/Matrix4f;)V",
       "checkEntityPostEffect": "Lnet/minecraft/client/renderer/GameRenderer;m_109106_(Lnet/minecraft/world/entity/Entity;)V",
+      "getFov(Lnet/minecraft/client/Camera;FZ)D": "Lnet/minecraft/client/renderer/GameRenderer;m_109141_(Lnet/minecraft/client/Camera;FZ)D",
       "method_18144": "Lnet/minecraft/client/renderer/GameRenderer;m_234236_(Lnet/minecraft/world/entity/Entity;)Z",
       "reloadShaders": "Lnet/minecraft/client/renderer/GameRenderer;m_172767_(Lnet/minecraft/server/packs/resources/ResourceProvider;)V",
       "render": "Lnet/minecraft/client/renderer/GameRenderer;m_109093_(FJZ)V",
@@ -320,7 +322,8 @@
       "renderLevel": "Lnet/minecraft/client/renderer/LevelRenderer;m_109599_(Lcom/mojang/blaze3d/vertex/PoseStack;FJZLnet/minecraft/client/Camera;Lnet/minecraft/client/renderer/GameRenderer;Lnet/minecraft/client/renderer/LightTexture;Lorg/joml/Matrix4f;)V",
       "renderSky": "Lnet/minecraft/client/renderer/LevelRenderer;m_202423_(Lcom/mojang/blaze3d/vertex/PoseStack;Lorg/joml/Matrix4f;FLnet/minecraft/client/Camera;ZLjava/lang/Runnable;)V",
       "renderSnowAndRain": "Lnet/minecraft/client/renderer/LevelRenderer;m_109703_(Lnet/minecraft/client/renderer/LightTexture;FDDD)V",
-      "tick": "Lnet/minecraft/client/renderer/LevelRenderer;m_109823_()V"
+      "tick": "Lnet/minecraft/client/renderer/LevelRenderer;m_109823_()V",
+      "tickRain": "Lnet/minecraft/client/renderer/LevelRenderer;m_109693_(Lnet/minecraft/client/Camera;)V"
     },
     "net/arna/jcraft/mixin/client/LivingEntityRendererMixin": {
       "<init>": "Lnet/minecraft/client/renderer/entity/LivingEntityRenderer;<init>(Lnet/minecraft/client/renderer/entity/EntityRendererProvider$Context;Lnet/minecraft/client/model/EntityModel;F)V",
@@ -947,7 +950,8 @@
         "drop": "Lnet/minecraft/client/player/LocalPlayer;m_108700_(Z)Z"
       },
       "net/arna/jcraft/mixin/client/ClientWorldMixin": {
-        "playSound": "Lnet/minecraft/client/multiplayer/ClientLevel;m_233602_(DDDLnet/minecraft/sounds/SoundEvent;Lnet/minecraft/sounds/SoundSource;FFZJ)V",
+        "playLocalSound(DDDLnet/minecraft/sounds/SoundEvent;Lnet/minecraft/sounds/SoundSource;FFZ)V": "Lnet/minecraft/client/multiplayer/ClientLevel;m_7785_(DDDLnet/minecraft/sounds/SoundEvent;Lnet/minecraft/sounds/SoundSource;FFZ)V",
+        "playSound(DDDLnet/minecraft/sounds/SoundEvent;Lnet/minecraft/sounds/SoundSource;FFZJ)V": "Lnet/minecraft/client/multiplayer/ClientLevel;m_233602_(DDDLnet/minecraft/sounds/SoundEvent;Lnet/minecraft/sounds/SoundSource;FFZJ)V",
         "tick": "Lnet/minecraft/client/multiplayer/ClientLevel;m_104726_(Ljava/util/function/BooleanSupplier;)V",
         "tickNonPassenger": "Lnet/minecraft/client/multiplayer/ClientLevel;m_104639_(Lnet/minecraft/world/entity/Entity;)V"
       },
@@ -969,6 +973,7 @@
         "Lnet/minecraft/client/renderer/LevelRenderer;doEntityOutline()V": "Lnet/minecraft/client/renderer/LevelRenderer;m_109769_()V",
         "Lnet/minecraft/client/renderer/LevelRenderer;renderLevel(Lcom/mojang/blaze3d/vertex/PoseStack;FJZLnet/minecraft/client/Camera;Lnet/minecraft/client/renderer/GameRenderer;Lnet/minecraft/client/renderer/LightTexture;Lorg/joml/Matrix4f;)V": "Lnet/minecraft/client/renderer/LevelRenderer;m_109599_(Lcom/mojang/blaze3d/vertex/PoseStack;FJZLnet/minecraft/client/Camera;Lnet/minecraft/client/renderer/GameRenderer;Lnet/minecraft/client/renderer/LightTexture;Lorg/joml/Matrix4f;)V",
         "checkEntityPostEffect": "Lnet/minecraft/client/renderer/GameRenderer;m_109106_(Lnet/minecraft/world/entity/Entity;)V",
+        "getFov(Lnet/minecraft/client/Camera;FZ)D": "Lnet/minecraft/client/renderer/GameRenderer;m_109141_(Lnet/minecraft/client/Camera;FZ)D",
         "method_18144": "Lnet/minecraft/client/renderer/GameRenderer;m_234236_(Lnet/minecraft/world/entity/Entity;)Z",
         "reloadShaders": "Lnet/minecraft/client/renderer/GameRenderer;m_172767_(Lnet/minecraft/server/packs/resources/ResourceProvider;)V",
         "render": "Lnet/minecraft/client/renderer/GameRenderer;m_109093_(FJZ)V",
@@ -1007,7 +1012,8 @@
         "renderLevel": "Lnet/minecraft/client/renderer/LevelRenderer;m_109599_(Lcom/mojang/blaze3d/vertex/PoseStack;FJZLnet/minecraft/client/Camera;Lnet/minecraft/client/renderer/GameRenderer;Lnet/minecraft/client/renderer/LightTexture;Lorg/joml/Matrix4f;)V",
         "renderSky": "Lnet/minecraft/client/renderer/LevelRenderer;m_202423_(Lcom/mojang/blaze3d/vertex/PoseStack;Lorg/joml/Matrix4f;FLnet/minecraft/client/Camera;ZLjava/lang/Runnable;)V",
         "renderSnowAndRain": "Lnet/minecraft/client/renderer/LevelRenderer;m_109703_(Lnet/minecraft/client/renderer/LightTexture;FDDD)V",
-        "tick": "Lnet/minecraft/client/renderer/LevelRenderer;m_109823_()V"
+        "tick": "Lnet/minecraft/client/renderer/LevelRenderer;m_109823_()V",
+        "tickRain": "Lnet/minecraft/client/renderer/LevelRenderer;m_109693_(Lnet/minecraft/client/Camera;)V"
       },
       "net/arna/jcraft/mixin/client/LivingEntityRendererMixin": {
         "<init>": "Lnet/minecraft/client/renderer/entity/LivingEntityRenderer;<init>(Lnet/minecraft/client/renderer/entity/EntityRendererProvider$Context;Lnet/minecraft/client/model/EntityModel;F)V",
