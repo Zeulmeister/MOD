@@ -1,0 +1,66 @@
+{
+  "mappings": {
+    "net/arna/jcraft/forge/mixin/WalkNodeEvaluatorMixin": {
+      "getBlockPathTypeRaw": "Lnet/minecraft/world/level/pathfinder/WalkNodeEvaluator;m_77643_(Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/pathfinder/BlockPathTypes;"
+    },
+    "net/arna/jcraft/forge/mixin/client/ForgeItemModelShaperMixin": {
+      "getItemModel(Lnet/minecraft/world/item/Item;)Lnet/minecraft/client/resources/model/BakedModel;": "Lnet/minecraftforge/client/model/ForgeItemModelShaper;m_109394_(Lnet/minecraft/world/item/Item;)Lnet/minecraft/client/resources/model/BakedModel;"
+    },
+    "net/arna/jcraft/forge/mixin/gravity/EntityMixin": {
+      "Lnet/minecraft/world/phys/Vec3;add(Lnet/minecraft/world/phys/Vec3;)Lnet/minecraft/world/phys/Vec3;": "Lnet/minecraft/world/phys/Vec3;m_82549_(Lnet/minecraft/world/phys/Vec3;)Lnet/minecraft/world/phys/Vec3;",
+      "Lnet/minecraft/world/entity/Entity;getDeltaMovement()Lnet/minecraft/world/phys/Vec3;": "Lnet/minecraft/world/entity/Entity;m_20184_()Lnet/minecraft/world/phys/Vec3;"
+    },
+    "net/arna/jcraft/forge/mixin/client/KeyBindingMixin": {
+      "setDown": "Lnet/minecraft/client/KeyMapping;m_7249_(Z)V"
+    },
+    "net/arna/jcraft/forge/mixin/ServerPlayerEntityMixin": {
+      "Lnet/minecraft/server/level/ServerPlayer;lastSentFood:I": "Lnet/minecraft/server/level/ServerPlayer;f_8918_:I",
+      "Lnet/minecraft/server/level/ServerLevel;removePlayerImmediately(Lnet/minecraft/server/level/ServerPlayer;Lnet/minecraft/world/entity/Entity$RemovalReason;)V": "Lnet/minecraft/server/level/ServerLevel;m_143261_(Lnet/minecraft/server/level/ServerPlayer;Lnet/minecraft/world/entity/Entity$RemovalReason;)V"
+    },
+    "net/arna/jcraft/forge/mixin/client/ForgeGuiMixin": {
+      "Lnet/minecraft/client/gui/GuiGraphics;blit(Lnet/minecraft/resources/ResourceLocation;IIIIII)V": "Lnet/minecraft/client/gui/GuiGraphics;m_280218_(Lnet/minecraft/resources/ResourceLocation;IIIIII)V"
+    },
+    "net/arna/jcraft/forge/mixin/client/LevelRendererAccessor": {
+      "renderBuffers": "f_109464_:Lnet/minecraft/client/renderer/RenderBuffers;"
+    },
+    "net/arna/jcraft/forge/mixin/client/MultiPlayerGameModeMixin": {
+      "Lnet/minecraft/client/multiplayer/ClientLevel;destroyBlockProgress(ILnet/minecraft/core/BlockPos;I)V": "Lnet/minecraft/client/multiplayer/ClientLevel;m_6801_(ILnet/minecraft/core/BlockPos;I)V"
+    },
+    "net/arna/jcraft/forge/mixin/EntityMixin": {
+      "Lnet/minecraft/world/entity/Entity;restoreFrom(Lnet/minecraft/world/entity/Entity;)V": "Lnet/minecraft/world/entity/Entity;m_20361_(Lnet/minecraft/world/entity/Entity;)V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "net/arna/jcraft/forge/mixin/WalkNodeEvaluatorMixin": {
+        "getBlockPathTypeRaw": "Lnet/minecraft/world/level/pathfinder/WalkNodeEvaluator;m_77643_(Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/pathfinder/BlockPathTypes;"
+      },
+      "net/arna/jcraft/forge/mixin/client/ForgeItemModelShaperMixin": {
+        "getItemModel(Lnet/minecraft/world/item/Item;)Lnet/minecraft/client/resources/model/BakedModel;": "Lnet/minecraftforge/client/model/ForgeItemModelShaper;m_109394_(Lnet/minecraft/world/item/Item;)Lnet/minecraft/client/resources/model/BakedModel;"
+      },
+      "net/arna/jcraft/forge/mixin/gravity/EntityMixin": {
+        "Lnet/minecraft/world/phys/Vec3;add(Lnet/minecraft/world/phys/Vec3;)Lnet/minecraft/world/phys/Vec3;": "Lnet/minecraft/world/phys/Vec3;m_82549_(Lnet/minecraft/world/phys/Vec3;)Lnet/minecraft/world/phys/Vec3;",
+        "Lnet/minecraft/world/entity/Entity;getDeltaMovement()Lnet/minecraft/world/phys/Vec3;": "Lnet/minecraft/world/entity/Entity;m_20184_()Lnet/minecraft/world/phys/Vec3;"
+      },
+      "net/arna/jcraft/forge/mixin/client/KeyBindingMixin": {
+        "setDown": "Lnet/minecraft/client/KeyMapping;m_7249_(Z)V"
+      },
+      "net/arna/jcraft/forge/mixin/ServerPlayerEntityMixin": {
+        "Lnet/minecraft/server/level/ServerPlayer;lastSentFood:I": "Lnet/minecraft/server/level/ServerPlayer;f_8918_:I",
+        "Lnet/minecraft/server/level/ServerLevel;removePlayerImmediately(Lnet/minecraft/server/level/ServerPlayer;Lnet/minecraft/world/entity/Entity$RemovalReason;)V": "Lnet/minecraft/server/level/ServerLevel;m_143261_(Lnet/minecraft/server/level/ServerPlayer;Lnet/minecraft/world/entity/Entity$RemovalReason;)V"
+      },
+      "net/arna/jcraft/forge/mixin/client/ForgeGuiMixin": {
+        "Lnet/minecraft/client/gui/GuiGraphics;blit(Lnet/minecraft/resources/ResourceLocation;IIIIII)V": "Lnet/minecraft/client/gui/GuiGraphics;m_280218_(Lnet/minecraft/resources/ResourceLocation;IIIIII)V"
+      },
+      "net/arna/jcraft/forge/mixin/client/LevelRendererAccessor": {
+        "renderBuffers": "f_109464_:Lnet/minecraft/client/renderer/RenderBuffers;"
+      },
+      "net/arna/jcraft/forge/mixin/client/MultiPlayerGameModeMixin": {
+        "Lnet/minecraft/client/multiplayer/ClientLevel;destroyBlockProgress(ILnet/minecraft/core/BlockPos;I)V": "Lnet/minecraft/client/multiplayer/ClientLevel;m_6801_(ILnet/minecraft/core/BlockPos;I)V"
+      },
+      "net/arna/jcraft/forge/mixin/EntityMixin": {
+        "Lnet/minecraft/world/entity/Entity;restoreFrom(Lnet/minecraft/world/entity/Entity;)V": "Lnet/minecraft/world/entity/Entity;m_20361_(Lnet/minecraft/world/entity/Entity;)V"
+      }
+    }
+  }
+}

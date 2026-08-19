@@ -1,0 +1,89 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.darby_younger.pose": {
+			"loop": true,
+			"bones": {
+				"torso": {
+					"rotation": {
+						"vector": [0, 25, 0]
+					}
+				},
+				"legLeft": {
+					"rotation": {
+						"vector": [-7.5, -15, 0]
+					}
+				},
+				"kneeLeft": {
+					"rotation": {
+						"vector": [7.5, 0, 0]
+					}
+				},
+				"legRight": {
+					"rotation": {
+						"vector": [5, 5, 5]
+					}
+				},
+				"kneeRight": {
+					"rotation": {
+						"vector": [2.5, 0, 0]
+					}
+				},
+				"body": {
+					"rotation": {
+						"vector": [0, 0, 5]
+					}
+				},
+				"upperBody": {
+					"rotation": {
+						"vector": [0, 0, -2.5]
+					}
+				},
+				"armRight": {
+					"rotation": {
+						"vector": [12.5, -15, 5]
+					}
+				},
+				"lowerRight": {
+					"rotation": {
+						"vector": [-5, 0, 0]
+					}
+				},
+				"armLeft": {
+					"rotation": {
+						"vector": [-45, 0, -5]
+					}
+				},
+				"lowerLeft": {
+					"rotation": {
+						"vector": [-32.5, -45, 95]
+					}
+				},
+				"head": {
+					"rotation": {
+						"vector": [-0.8521, -3.83465, -2.85368]
+					}
+				},
+				"browR": {
+					"rotation": {
+						"vector": [0, 0, 5]
+					},
+					"position": {
+						"vector": [0, 0.275, 0]
+					}
+				},
+				"browL": {
+					"rotation": {
+						"vector": [0, 0, -5]
+					}
+				},
+				"eyeL": {
+					"position": {
+						"vector": [1, 0, 0]
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

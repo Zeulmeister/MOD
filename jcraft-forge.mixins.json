@@ -1,0 +1,27 @@
+{
+  "required": true,
+  "package": "net.arna.jcraft.forge.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "EntityMixin",
+    "ServerPlayerEntityMixin",
+    "TimestopBlockMixin",
+    "WalkNodeEvaluatorMixin",
+    "gravity.EntityMixin",
+    "gravity.ServerPlayerEntityMixin"
+  ],
+  "client": [
+    "client.ForgeGuiMixin",
+    "client.ForgeItemModelShaperMixin",
+    "client.GameRendererMixin",
+    "client.KeyBindingMixin",
+    "client.LevelRendererAccessor",
+    "client.MultiPlayerGameModeMixin",
+    "client.gravity.ScreenEffectRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "minVersion": "0.8",
+  "refmap": "jcraft-forge-forge-refmap.json"
+}

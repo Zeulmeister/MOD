@@ -1,0 +1,114 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.darby_older.pose": {
+			"animation_length": 10.0417,
+			"bones": {
+				"torso": {
+					"rotation": {
+						"vector": [0, 25, 0]
+					},
+					"position": {
+						"vector": [-0.225, 1, -3.275]
+					}
+				},
+				"legLeft": {
+					"rotation": {
+						"vector": [-107.82808, 24.95966, -0.95651]
+					}
+				},
+				"kneeLeft": {
+					"rotation": {
+						"vector": [84.981, -4.98093, 0.43688]
+					}
+				},
+				"legRight": {
+					"rotation": {
+						"vector": [-31.71764, -16.63353, -19.09815]
+					},
+					"position": {
+						"vector": [-0.475, 0, 0]
+					}
+				},
+				"kneeRight": {
+					"rotation": {
+						"vector": [30, 0, 0]
+					}
+				},
+				"body": {
+					"rotation": {
+						"vector": [-2.5, 0, 0]
+					}
+				},
+				"upperBody": {
+					"rotation": {
+						"vector": [9.04239, -8.63325, 6.15895]
+					}
+				},
+				"armRight": {
+					"rotation": {
+						"vector": [-1.48531, -17.10645, 20.93391]
+					},
+					"position": {
+						"vector": [0.4, -1.2, -0.275]
+					}
+				},
+				"lowerRight": {
+					"rotation": {
+						"vector": [-58.66222, -27.39727, -15.65266]
+					}
+				},
+				"armLeft": {
+					"rotation": {
+						"vector": [-41.45049, 24.14463, -9.13135]
+					},
+					"position": {
+						"vector": [0, -0.65, -0.75]
+					}
+				},
+				"lowerLeft": {
+					"rotation": {
+						"vector": [-90, 22.5, 12.5]
+					}
+				},
+				"head": {
+					"rotation": {
+						"vector": [2.66399, -14.76689, -7.84527]
+					}
+				},
+				"browR": {
+					"rotation": {
+						"vector": [0, 0, 5]
+					},
+					"position": {
+						"vector": [0, -0.2, 0]
+					}
+				},
+				"browL": {
+					"rotation": {
+						"vector": [0, 0, -12.5]
+					},
+					"position": {
+						"vector": [0, 0.2, 0]
+					}
+				},
+				"eyeR": {
+					"position": {
+						"vector": [-0.075, 0, 0]
+					}
+				},
+				"eyeL": {
+					"position": {
+						"vector": [0.15, 0, 0]
+					}
+				},
+				"stool": {
+					"position": {
+						"vector": [-12, 0, 0]
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

@@ -1,0 +1,9 @@
+{
+  "asset_name": "jcraft-stellar_iron",
+  "description": {
+    "color": "#f5af25",
+    "translate": "jcraft.trim_material.stellar_iron"
+  },
+  "ingredient": "jcraft:stellar_iron_ingot",
+  "item_model_index": 0.2314123
+}

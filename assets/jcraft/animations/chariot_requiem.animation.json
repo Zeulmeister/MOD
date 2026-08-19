@@ -1,0 +1,70 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.silver_chariot_requiem.pose": {
+			"loop": true,
+			"bones": {
+				"legRight": {
+					"rotation": {
+						"vector": [7.82902, 7.49282, 2.52154]
+					}
+				},
+				"lower_legRight": {
+					"rotation": {
+						"vector": [5, 0, 0]
+					}
+				},
+				"legLeft": {
+					"rotation": {
+						"vector": [-4.77914, -5.10425, -2.50757]
+					}
+				},
+				"lower_legLeft": {
+					"rotation": {
+						"vector": [2.5, 0, 0]
+					}
+				},
+				"body": {
+					"rotation": {
+						"vector": [5, 0, 0]
+					}
+				},
+				"upperBody": {
+					"rotation": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"head": {
+					"rotation": {
+						"vector": [5, 0, 0]
+					}
+				},
+				"leaf": {
+					"rotation": {
+						"vector": [0.96671, -14.50011, -5.57712]
+					}
+				},
+				"armRight": {
+					"rotation": {
+						"vector": [8.80349, 4.88607, 10.0272]
+					}
+				},
+				"lower_armRight": {
+					"rotation": {
+						"vector": [-20, 0, 0]
+					}
+				},
+				"armLeft": {
+					"rotation": {
+						"vector": [13.27109, -14.25665, -8.49589]
+					}
+				},
+				"lower_armLeft": {
+					"rotation": {
+						"vector": [-15, 0, 0]
+					}
+				}
+			}
+		}
+	}
+}

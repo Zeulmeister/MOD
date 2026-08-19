@@ -1,0 +1,142 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.ice_branch.geo",
+				"texture_width": 32,
+				"texture_height": 32,
+				"visible_bounds_width": 4,
+				"visible_bounds_height": 1.5,
+				"visible_bounds_offset": [0, 0.25, 0]
+			},
+			"bones": [
+				{
+					"name": "base",
+					"pivot": [-16, 0, 0],
+					"cubes": [
+						{
+							"origin": [-16, -1, -1],
+							"size": [32, 2, 2],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [16, 2]},
+								"east": {"uv": [0, 2], "uv_size": [2, 2]},
+								"south": {"uv": [0, 0], "uv_size": [16, 2]},
+								"west": {"uv": [0, 2], "uv_size": [2, 2]},
+								"up": {"uv": [16, 2], "uv_size": [-16, -2]},
+								"down": {"uv": [16, 2], "uv_size": [-16, -2]}
+							}
+						},
+						{
+							"origin": [-16, -3, -3],
+							"size": [32, 6, 6],
+							"uv": {
+								"north": {"uv": [0, 4], "uv_size": [16, 6]},
+								"east": {"uv": [0, 10], "uv_size": [6, 6]},
+								"south": {"uv": [0, 4], "uv_size": [16, 6]},
+								"west": {"uv": [0, 10], "uv_size": [6, 6]},
+								"up": {"uv": [16, 10], "uv_size": [-16, -6]},
+								"down": {"uv": [16, 10], "uv_size": [-16, -6]}
+							}
+						}
+					]
+				},
+				{
+					"name": "frays",
+					"parent": "base",
+					"pivot": [-16, 0, 0],
+					"cubes": [
+						{
+							"origin": [-14, -8, 0],
+							"size": [32, 16, 0],
+							"uv": {
+								"east": {"uv": [0, 0], "uv_size": [0, 8]},
+								"south": {"uv": [0, 16], "uv_size": [32, 16]},
+								"west": {"uv": [0, 0], "uv_size": [0, 8]},
+								"up": {"uv": [32, 0], "uv_size": [-32, 0]},
+								"down": {"uv": [32, 0], "uv_size": [-32, 0]}
+							}
+						},
+						{
+							"origin": [-14, -8, 0],
+							"size": [32, 16, 0],
+							"pivot": [2, 0, 0],
+							"rotation": [-90, 0, 0],
+							"uv": {
+								"north": {"uv": [32, 16], "uv_size": [-32, 16]},
+								"east": {"uv": [0, 0], "uv_size": [0, 8]},
+								"west": {"uv": [0, 0], "uv_size": [0, 8]},
+								"up": {"uv": [32, 0], "uv_size": [-32, 0]},
+								"down": {"uv": [32, 0], "uv_size": [-32, 0]}
+							}
+						}
+					]
+				},
+				{
+					"name": "thorns",
+					"parent": "base",
+					"pivot": [8, 0, 0],
+					"cubes": [
+						{
+							"origin": [10, -2, -4],
+							"size": [3, 3, 0],
+							"pivot": [12, -1, -4],
+							"rotation": [90, 0, 0],
+							"uv": {
+								"east": {"uv": [0, 0], "uv_size": [0, 2]},
+								"south": {"uv": [13, 13], "uv_size": [3, 3]},
+								"west": {"uv": [0, 0], "uv_size": [0, 2]},
+								"up": {"uv": [2, 0], "uv_size": [-2, 0]},
+								"down": {"uv": [2, 0], "uv_size": [-2, 0]}
+							}
+						},
+						{
+							"origin": [-8, 3, -2],
+							"size": [3, 3, 0],
+							"uv": {
+								"east": {"uv": [0, 0], "uv_size": [0, 2]},
+								"south": {"uv": [13, 13], "uv_size": [3, 3]},
+								"west": {"uv": [0, 0], "uv_size": [0, 2]},
+								"up": {"uv": [2, 0], "uv_size": [-2, 0]},
+								"down": {"uv": [2, 0], "uv_size": [-2, 0]}
+							}
+						},
+						{
+							"origin": [9, 2.7, 3.7],
+							"size": [3, 3, 0],
+							"pivot": [11, 3.7, 3.7],
+							"rotation": [-45, 0, 0],
+							"uv": {
+								"east": {"uv": [0, 0], "uv_size": [0, 2]},
+								"south": {"uv": [13, 13], "uv_size": [3, 3]},
+								"west": {"uv": [0, 0], "uv_size": [0, 2]},
+								"up": {"uv": [2, 0], "uv_size": [-2, 0]},
+								"down": {"uv": [2, 0], "uv_size": [-2, 0]}
+							}
+						}
+					]
+				},
+				{
+					"name": "head",
+					"parent": "base",
+					"pivot": [-16, 0, 0],
+					"cubes": [
+						{
+							"origin": [-19, -3, -3],
+							"size": [6, 6, 6],
+							"inflate": 0.5,
+							"uv": {
+								"north": {"uv": [16, 0], "uv_size": [6, 6]},
+								"east": {"uv": [16, 0], "uv_size": [6, 6]},
+								"south": {"uv": [16, 0], "uv_size": [6, 6]},
+								"west": {"uv": [16, 0], "uv_size": [6, 6]},
+								"up": {"uv": [22, 6], "uv_size": [-6, -6]},
+								"down": {"uv": [22, 6], "uv_size": [-6, -6]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

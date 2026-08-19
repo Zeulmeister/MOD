@@ -1,0 +1,26 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.unknown",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 1.5,
+				"visible_bounds_offset": [0, 0.25, 0]
+			},
+			"bones": [
+				{
+					"name": "stand_arrow_projectile",
+					"pivot": [0, 3, 0],
+					"cubes": [
+						{"origin": [-3, -1, -8], "size": [5, 1, 16], "pivot": [-0.5, -0.5, 0], "rotation": [0, 90, 0], "uv": [0, 0]},
+						{"origin": [-3.5, -2.75, 7], "size": [5, 5.25, 1], "pivot": [-1, -0.25, 0], "rotation": [0, 90, 0], "uv": [0, 0]},
+						{"origin": [-2.5, -0.5, -8.5], "size": [5, 1, 16], "pivot": [0, 0, -0.5], "rotation": [-90, 0, -90], "uv": [0, 0]}
+					]
+				}
+			]
+		}
+	]
+}
