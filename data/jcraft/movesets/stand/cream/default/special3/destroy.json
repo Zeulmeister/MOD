@@ -45,6 +45,7 @@
         "description": {
           "translate": "move.jcraft.cream.default.charge.cr.description"
         },
+        "is_holdable": true,
         "name": {
           "translate": "move.jcraft.cream.default.charge.cr.name"
         },

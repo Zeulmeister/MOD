@@ -27,6 +27,7 @@
         "description": {
           "translate": "move.jcraft.star_platinum.default.lunging_barrage.cr.description"
         },
+        "is_holdable": true,
         "name": {
           "translate": "jcraft.starplatinum.crsp3"
         },
@@ -63,6 +64,7 @@
       "description": {
         "translate": "move.jcraft.star_platinum.default.advancing_barrage.description"
       },
+      "is_holdable": true,
       "name": {
         "translate": "jcraft.starplatinum.sp3"
       },

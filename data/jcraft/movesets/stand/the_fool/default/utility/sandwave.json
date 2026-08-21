@@ -44,6 +44,7 @@
       "description": {
         "translate": "move.jcraft.the_fool.default.sandwave.description"
       },
+      "is_holdable": true,
       "mobility_type": "DASH",
       "name": {
         "translate": "move.jcraft.the_fool.default.sandwave.name"

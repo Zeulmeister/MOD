@@ -18,6 +18,7 @@
         "description": {
           "translate": "move.jcraft.the_fool.default.burn_rubber.air.description"
         },
+        "is_holdable": true,
         "name": {
           "translate": "move.jcraft.the_fool.default.burn_rubber.air.name"
         }

@@ -49,6 +49,7 @@
                 "sound": "jcraft:impact6"
               }
             ],
+            "is_holdable": true,
             "name": {
               "text": "Barrage (Final Hit)"
             }

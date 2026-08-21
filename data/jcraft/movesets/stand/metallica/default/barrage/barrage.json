@@ -36,6 +36,7 @@
       "description": {
         "translate": "move.jcraft.metallica.default.barrage.description"
       },
+      "is_holdable": true,
       "name": {
         "translate": "move.jcraft.metallica.default.barrage.name"
       }

@@ -25,6 +25,7 @@
       "description": {
         "translate": "move.jcraft.magicians_red.default.flamethrower.description"
       },
+      "is_holdable": true,
       "name": {
         "translate": "move.jcraft.magicians_red.default.flamethrower.name"
       }

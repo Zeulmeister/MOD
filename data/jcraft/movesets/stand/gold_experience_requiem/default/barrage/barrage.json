@@ -61,6 +61,7 @@
           },
           "tick": 37
         },
+        "is_holdable": true,
         "name": {
           "translate": "move.jcraft.gold_experience_requiem.default.kick_barrage.air.name"
         }

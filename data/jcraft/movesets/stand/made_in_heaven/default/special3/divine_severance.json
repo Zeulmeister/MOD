@@ -52,6 +52,7 @@
       "description": {
         "translate": "move.jcraft.made_in_heaven.default.divine_severance.description"
       },
+      "is_holdable": true,
       "name": {
         "translate": "move.jcraft.made_in_heaven.default.divine_severance.name"
       }
